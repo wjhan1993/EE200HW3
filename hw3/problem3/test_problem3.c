@@ -1,0 +1,19 @@
+
+#include "problem3.h"
+
+
+int main(int argc, char* argv[])
+{
+
+  // Put anything here that you think is appropriate to test your function
+  // e.g, double result = calculate(37, '+', 1);
+  //      if(result ...
+  double result1 = calculate(45.6,'+',21.0);
+  double result2 = calculate(10.23,'-',50.6);
+  double result3 = calculate(-3.23,'*',3.45);
+  double result4 = calculate(9.3,'/',3.1);
+  double result5 = calculate(2.5,'^',2);
+  double result6 = calculate(3.67,'a',4.5); //Invalid operation
+  return(0);
+}
+
